@@ -11,7 +11,7 @@
    }
 
    h1 {
-     text-align: center;
+     text-align:center;
      color: #a8adb4;
      font-size: 40px;
      font-style: oblique;
@@ -25,13 +25,24 @@
      font-family: sans-serif;
    }
 
+   #img {
+     overflow: hidden;
+     border-top: 1px solid rgba(0,0,0,0.08);
+     background: url(https://source.unsplash.com/collection/1575474) no-repeat center;
+     padding: 20em 0em;
+     background-position:center;
+   }
+
   </style>
 </head>
 
 <body>
 
   <h1>Business Line</h1>
-  <img src="https://source.unsplash.com/collection/1575474" width="100%">
+<ul>
+  <div id="img"></div>
+
+  </ul>
 <ol>
   <li>Interior Planning  –  인테리어 설계</li>
   <li>Interior & Construction  –  인테리어 시공</li>
@@ -40,3 +51,5 @@
   <li>Design Consulting  –  디자인 컨설팅</li>
   <li>Housing Construction  –  주택 건설업</li>
 </ol>
+
+</body>
