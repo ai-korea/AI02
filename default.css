@@ -174,7 +174,7 @@
 		display: inline-block;
 		margin-top: 2em;
 		padding: 1em 2em 1em 2em;
-		background: #8dc63f;
+		background: #85adad;
 		letter-spacing: 0.20em;
 		text-decoration: none;
 		text-transform: uppercase;
@@ -329,7 +329,7 @@
 		overflow: hidden;
 		padding: 15em 0em;
 		background: url(https://source.unsplash.com/collection/1575474) no-repeat center;
-		background-size: cover;
+		background-size:auto;
 		border-top: 1px solid rgba(0,0,0,0.08);
 	}
 
@@ -398,33 +398,6 @@
 /* Featured                                                                      */
 /*********************************************************************************/
 
-	#featured
-	{
-		overflow: hidden;
-		padding: 5em 0em;
-		border-top: 1px solid rgba(0,0,0,0.1);
-	}
-
-	#featured .align-left
-	{
-		float: left;
-		width: 384px;
-		padding-top: 1em;
-		text-align: center;
-	}
-
-	#featured .fa
-	{
-		font-size: 14em;
-		color: #8dc63f;
-	}
-
-	#featured .align-right
-	{
-		float: right;
-		width: 792px;
-		font-size: 1.4em;
-	}
 
 
 	.box
@@ -438,7 +411,7 @@
 	{
 		margin: 0;
 		padding: 1em 1em;
-		background: #8dc63f;
+		background: #85adad;
 		display: block;
 		line-height: 3em;
 		text-align: center;
